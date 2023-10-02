@@ -1,80 +1,42 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 1px;
+    margin: 1px;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+.outer{
+    width: 700px;
+    height: 800px;
+    margin: 0px auto;
+    border: 1px solid black;
+    overflow: hidden;
+    
 }
-.container{
-    max-width: 450px;
-    background: #001111;
-    border-radius: 8px;
-    box-shadow: 0px 0px 15px 3px rgba(0,0, 0,0);
-    font-family: sans-serif;
-    padding: 20px;
-
-}
-.title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-    gap: 10px;
-}
-
-h1{
-    color: #fff;
-    letter-spacing: 1.3px;
-    font-size: 25px;
-}
-#celcius,#fahrenheit,#kelvin{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-}
-input{
-    flex: 7;
-    height: 70px;
-    font-size: 30px;
-    font-weight: 500;
+.outer h1{
     text-align: center;
-    border: none;
-    outline: none;
-    border-radius: 9px 0 0 9px;
-    padding: 0 10px;
+    font-style: Arial Verdana Helvetica; 
 }
-.button{
-    margin: 30px;
-    text-align: center;
-}
-.icon{
-    flex: 1;
-    height: 70px;
-    line-height: 60px;
-    padding: 0 6px;
-    text-align: center;
+p{
     font-size: 20px;
-    background: #4d5964;
-    color: #fff;
-    border-radius: 0 8px 8px 0;
 }
-.button button{
-    border: none;
-    outline: none;
-    padding: 10px 25px;
+.border{
+    width:100%;
+    padding: 5px;
+    background-color:rgb(144, 123, 154);
+    border: 0px solid black;
+    font-weight: bold;
+} 
+ul{
     font-size: 20px;
-    font-weight: 700;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: 1.3s;
+    margin-left:50px;
 }
-.button button:hover{
-    background: #000;
-    color: #fff;
+h2{
+    float:right;
 }
+.newbox{
 
+    width: 700px;
+    height: 800px;
+    border:1px solid black;
+    margin: 0px auto;
+    overflow: hidden;
+
+}
